@@ -1,0 +1,37 @@
+Default Welcome Intent
+======================
+Text response:  Hello, How can I help you? You can say "New Order" or "Track Order"
+				Good day! What can I do for you today? You can say "New Order" or "Track Order"
+				Greetings! How can I assist? You can say "New Order" or "Track Order"
+
+
+Default Fallback Intent
+========================
+Text Response: I didn't understand. You can say 'New Order' or 'Track Order'. Also, in a new order, please mention only items from our available menu: Pizza, Libanais, Makloub, Chapati, Mlewi, Cornet and Baguette farcie. Also specify a quantity for each item for example: "One pizza and 2 makloub	
+
+
+Intent= new.order
+=================
+new order
+Place new order
+Let's create a new order
+I'd like to make a new order
+Submit a new order
+
+Text Response = 
+Ok, starting a new order. You can say things like "I want two pizzas and one mlewi ". Make sure to specify a quantity for every food item! Also, we have only the following items on our menu: Makloub, Libanais, Pizza, Baguette farcie, Chapati, Mlewi, and Cornet.
+
+Starting new order. Specify food items and quantities. For example, you can say, "I would like to order two pizzas and one cornet. Also, we have only the following items on our menu: Makloub, Libanais, Pizza, Baguette farcie, Chapati, Mlewi, and Cornet.
+
+
+Intent= track.order
+===================
+
+check the status of my order
+track order
+track existing order
+
+Text response:
+	Definitely. What is your order id?
+	Sure. Please enter your order id.
+	Definitely. What is your order id?			
